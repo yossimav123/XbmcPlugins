@@ -18,7 +18,9 @@
           <content>tvshows</content>
         </supportedcontent>	
     </extension>
-    <extension point="xbmc.addon.repository" name="XBMC Israeli streaming repo for streaming sites">
-        <info compressed="false">https://github.com/yossimav123/XbmcPlugins/blob/master/plugin.video.sdarot.tv/addon.xml</info>
-     </extension>
+  <extension point="xbmc.addon.repository"
+              name="My Repo Shay">
+    <info compressed="false">https://github.com/yossimav123/XbmcPlugins/blob/master/plugin.video.sdarot.tv/addon.xml</info>
+    <datadir zip="true">https://github.com/yossimav123/XbmcPlugins/archive/master.zip</datadir>
+  </extension>
 </addon>
